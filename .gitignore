@@ -13,3 +13,5 @@
 #build folder
 /target
 /.settings
+/.idea
+/.idea/artifacts
