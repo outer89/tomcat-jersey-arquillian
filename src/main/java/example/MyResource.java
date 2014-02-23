@@ -27,7 +27,7 @@ public class MyResource {
     }
 
     @GET
-    @Produces(MediaType.APPLICATION_XML)
+    @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     @Path("{name}/user")
     public Response getUser(@PathParam("name") String name) {
         User u = new User();
